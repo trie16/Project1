@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1">
+    <mxGraphModel dx="1216" dy="702" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" value="" style="group" vertex="1" connectable="0">
+          <mxGeometry x="0" y="0" width="827" height="1169" as="geometry"/>
+        </mxCell>
+        <mxCell id="1" value="Cloud Server" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9E5FF;strokeColor=#1C72B2;align=center;verticalAlign=middle;resizable=0;glass=0;rounded=0" vertex="1" connectable="1">
+          <mxGeometry x="0.3" y="0.1" width="180" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="2" value="STM32H7 Microcontroller" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9E5FF;strokeColor=#1C72B2;align=center;verticalAlign=middle;resizable=0;glass=0;rounded=0" vertex="1" connectable="1">
+          <mxGeometry x="0.3" y="0.3" width="180" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="3" value="Sensor & Aktuator (Relai Lampu)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9E5FF;strokeColor=#1C72B2;align=center;verticalAlign=middle;resizable=0;glass=0;rounded=0" vertex="1" connectable="1">
+          <mxGeometry x="0.3" y="0.5" width="180" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="4" value="Android Application" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9E5FF;strokeColor=#1C72B2;align=center;verticalAlign=middle;resizable=0;glass=0;rounded=0" vertex="1" connectable="1">
+          <mxGeometry x="0.3" y="0.7" width="180" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="5" value="Internet (MQTT/HTTPS)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonal=1;jettySize=auto;html=1;exitX=0.5;exitY=0.9;exitDx=0;exitDy=0" edge="1" parent="0" source="2" target="3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonal=1;jettySize=auto;html=1;" edge="1" parent="0" source="1" target="2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonal=1;jettySize=auto;html=1;" edge="1" parent="0" source="4" target="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
